@@ -10,6 +10,7 @@ val libs = extensions.getByType(org.gradle.accessors.dm.LibrariesForLibs::class)
 
 dependencies {
     api(libs.annotations)
+    compileOnlyApi(libs.slf4j)
 
     testImplementation(platform(libs.junit.bom))
     testImplementation(libs.junit.jupiter)

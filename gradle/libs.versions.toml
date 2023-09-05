@@ -1,6 +1,7 @@
 [versions]
 
 annotations = "24.0.1"
+slf4j = "2.0.9"
 
 junit = "5.10.0"
 
@@ -11,6 +12,7 @@ shadow = "8.0.0"
 [libraries]
 
 annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
+slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
 
 junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
