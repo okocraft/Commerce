@@ -1,0 +1,5 @@
+name: Commerce
+version: ${projectVersion}
+main: net.okocraft.commerce.platform.paper.CommercePaperPlugin
+api-version: '1.20'
+folia-supported: true

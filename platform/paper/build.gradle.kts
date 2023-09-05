@@ -7,12 +7,14 @@ repositories {
 }
 
 dependencies {
+    implementation(projects.commerceApi)
+    implementation(projects.commerceCore)
     compileOnly(libs.platform.paper)
 }
 
 tasks {
     processResources {
-        filesMatching(listOf("plugin.yml")) {
+        filesMatching(listOf("paper-plugin.yml")) {
             expand("projectVersion" to project.version)
         }
     }
