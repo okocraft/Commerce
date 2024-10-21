@@ -3,7 +3,7 @@
 annotations = "24.0.1"
 slf4j = "2.0.9"
 
-junit = "5.10.0"
+junit = "5.11.3"
 
 paper = "1.20.1-R0.1-SNAPSHOT"
 
